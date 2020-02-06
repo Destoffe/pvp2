@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "91898368453",
+    "firebase_url": "https://pvpfirebaseproject.firebaseio.com",
+    "project_id": "pvpfirebaseproject",
+    "storage_bucket": "pvpfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91898368453:android:e381d259309f8aeb27fbac",
+        "android_client_info": {
+          "package_name": "com.textrpg.stoffe.pvp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91898368453-rg16ervqr8uq2vd42jciihmskqhe23d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.textrpg.stoffe.pvp2",
+            "certificate_hash": "1f5905ac6dca1540d05b6dc31d96e0b33037e693"
+          }
+        },
+        {
+          "client_id": "91898368453-8k1n115j3jhlq04rl9ct5q3t7v53p4cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_mEJ1CCbQsN5BRLn-Bwdf2hLHHd0sZJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91898368453-8k1n115j3jhlq04rl9ct5q3t7v53p4cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

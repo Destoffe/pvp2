@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/usernameTxt"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:text="username"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:id="@+id/lvlTxt"
+        android:text="lvl"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/usernameTxt"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/statsTxt"
+        android:text="agi: 1 str: 1 int: 1"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lvlTxt"/>
+
+    <Button
+        android:id="@+id/deleteBtn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Delete User"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/statsTxt"/>
+
+    <Button
+        android:id="@+id/cikis_yap"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/deleteBtn"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</RelativeLayout>

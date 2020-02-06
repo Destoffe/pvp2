@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adventure Stage"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/titletxt"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titletxt"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="CurrentPlace[x,y]"
+        android:textSize="30sp"
+        android:id="@+id/currentPlace"/>
+    <!--
+   <Button
+       android:id="@+id/goUpBtn"
+       style="?android:textAppearanceSmall"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="200dp"
+       android:text="Go Up"
+       android:textColor="@android:color/white"
+       android:textStyle="bold"
+       android:background="@android:color/holo_blue_bright"
+       android:layout_below="@+id/currentPlace"/>
+-->
+   <Button
+       android:id="@+id/goLeftBtn"
+       style="?android:textAppearanceSmall"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/currentPlace"
+       android:layout_alignParentStart="true"
+       android:layout_marginTop="200dp"
+       android:background="@android:color/holo_blue_bright"
+       android:text="Go Left"
+       android:textColor="@android:color/white"
+       android:textStyle="bold" />
+
+   <Button
+       android:id="@+id/goRightBtn"
+       style="?android:textAppearanceSmall"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/goLeftBtn"
+       android:layout_alignParentStart="true"
+       android:layout_marginTop="20dp"
+       android:background="@android:color/holo_blue_bright"
+       android:text="Go Right"
+       android:textColor="@android:color/white"
+       android:textStyle="bold" />
+<!--
+   <Button
+       android:id="@+id/goDownBtn"
+       style="?android:textAppearanceSmall"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/goRightBtn"
+       android:layout_alignParentStart="true"
+       android:layout_marginTop="20dp"
+       android:background="@android:color/holo_blue_bright"
+       android:text="Go Down"
+       android:textColor="@android:color/white"
+       android:textStyle="bold" />
+-->
+
+
+
+</RelativeLayout>
